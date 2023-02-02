@@ -14,12 +14,15 @@
     <ItemGroup>
       <PackageReference Include="AutoMapper" Version="12.0.1" />
       <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+      <PackageReference Include="EntityFramework6.Npgsql" Version="6.4.3" />
       <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.13" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.2" />
       <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
       <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
       <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
       <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="7.0.0" />
       <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.1" />
       <PackageReference Include="Serilog" Version="3.0.0-dev-01842" />
       <PackageReference Include="Serilog.AspNetCore" Version="6.1.1-dev-00293" />
       <PackageReference Include="Serilog.Enrichers.Environment" Version="2.3.0-dev-00791" />
@@ -37,6 +40,12 @@
       <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.5.0" />
       <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.5.0" />
       <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="6.5.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\granito.application\granito.application.csproj" />
+      <ProjectReference Include="..\granito.domain\granito.domain.csproj" />
+      <ProjectReference Include="..\granito.repository\granito.repository.csproj" />
     </ItemGroup>
 
 </Project>

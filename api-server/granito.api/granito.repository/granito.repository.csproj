@@ -7,4 +7,31 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Compile Remove="Program.cs" />
+      <Compile Remove="Repository\Base\BaseRepository.cs" />
+      <Compile Remove="Repository\Base\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="EntityFramework" Version="6.4.4" />
+      <PackageReference Include="EntityFramework6.Npgsql" Version="6.4.3" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.2" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="7.0.2" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Analyzers" Version="7.0.2" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Repository\Base\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Repository\Base\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\granito.domain\granito.domain.csproj" />
+    </ItemGroup>
+
 </Project>

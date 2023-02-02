@@ -4,6 +4,62 @@
     "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.bootstrapper/granito.bootstrapper.csproj": {}
   },
   "projects": {
+    "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.application/granito.application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.application/granito.application.csproj",
+        "projectName": "granito.application",
+        "projectPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.application/granito.application.csproj",
+        "packagesPath": "/Users/emersongaldino/.nuget/packages/",
+        "outputPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/emersongaldino/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/granito.domain.csproj": {
+                "projectPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/granito.domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.bootstrapper/granito.bootstrapper.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -25,7 +81,17 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.application/granito.application.csproj": {
+                "projectPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.application/granito.application.csproj"
+              },
+              "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/granito.domain.csproj": {
+                "projectPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/granito.domain.csproj"
+              },
+              "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.repository/granito.repository.csproj": {
+                "projectPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.repository/granito.repository.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -46,9 +112,17 @@
               "target": "Package",
               "version": "[12.0.0, )"
             },
+            "EntityFramework6.Npgsql": {
+              "target": "Package",
+              "version": "[6.4.3, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[6.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
             },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
@@ -69,6 +143,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.2, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.1, )"
             },
             "Serilog": {
               "target": "Package",
@@ -137,6 +215,140 @@
             "Swashbuckle.AspNetCore.SwaggerUI": {
               "target": "Package",
               "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/granito.domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/granito.domain.csproj",
+        "projectName": "granito.domain",
+        "projectPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/granito.domain.csproj",
+        "packagesPath": "/Users/emersongaldino/.nuget/packages/",
+        "outputPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/emersongaldino/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.repository/granito.repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.repository/granito.repository.csproj",
+        "projectName": "granito.repository",
+        "projectPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.repository/granito.repository.csproj",
+        "packagesPath": "/Users/emersongaldino/.nuget/packages/",
+        "outputPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.repository/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/emersongaldino/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/granito.domain.csproj": {
+                "projectPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/granito.domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "EntityFramework6.Npgsql": {
+              "target": "Package",
+              "version": "[6.4.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Analyzers": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.2, )"
             }
           },
           "imports": [

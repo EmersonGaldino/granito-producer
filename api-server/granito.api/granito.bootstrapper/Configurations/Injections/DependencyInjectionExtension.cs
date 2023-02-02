@@ -1,7 +1,15 @@
+using granito.application.AppService.User;
+using granito.application.Interface.User;
 using granito.bootstrapper.Configurations.Performace.Filters;
+using granito.domain.Interface.User;
+using granito.domain.Repositories.IService.User;
+using granito.repository.Repository.Context;
+using granito.repository.Repository.User;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using uCondo.Galdino.Domain.Service.User;
 
 namespace granito.bootstrapper.Configurations.Injections;
 
@@ -9,24 +17,7 @@ public static class DependencyInjectionExtension
 {
     public static IServiceCollection AddServices(this IServiceCollection services, IConfiguration configuration)
     {
-
-
-        #region .::Include injection configurations estructure
-        // var infraConfig = new InfraestructConfig();
-        // new ConfigureFromConfigurationOptions<InfraestructConfig>(
-        //         configuration.GetSection("Infrastructure"))
-        //     .Configure(infraConfig);
-        // services.AddSingleton(infraConfig);
-        #endregion
-
-        #region .:: Include ConnectionString
-        //services.AddScoped<IConnectionPostgres, UnitOfWorkPostgres>(x => new UnitOfWorkPostgres(new RouterEnvironments().GetEnvByName("SqlConnectionStringIzacore")));
-
-        //new RouterEnvironments().GetEnvByName("SqlConnectionString")
-
-        //services.AddScoped<IConnectionHooksReturn, UnitOfWorkHooksReturn>(x => new UnitOfWorkHooksReturn(new RouterEnvironments().GetEnvByName("SqlConnectionString")));
-        #endregion
-
+        
         #region .:: Configuration filter performace
 
         services.AddTransient<PerformaceFilters>();
@@ -51,7 +42,7 @@ public static class DependencyInjectionExtension
         
         #region .::UnitOfWork
         
-        services.AddScoped<uCondoContext>();
+        services.AddScoped<ContextDb>();
         #endregion
 
 
@@ -66,15 +57,14 @@ public static class DependencyInjectionExtension
 
         if (getEnv is "Development" or null)
         {
-            var teste = configuration.GetConnectionString("uCondoConn");
-            services.AddDbContext<uCondoContext>(options =>
-                options.UseSqlServer(configuration.GetConnectionString("uCondoConn")));
+            services.AddDbContext<ContextDb>(options =>
+                options.UseNpgsql(configuration.GetConnectionString("Default")));
         }
         else
         {
 
-            services.AddDbContext<uCondoContext>(options =>
-                options.UseSqlServer(Environment.GetEnvironmentVariable("uCondoConn")!));
+            services.AddDbContext<ContextDb>(options =>
+                options.UseNpgsql(Environment.GetEnvironmentVariable("DefaultConnection")!));
         }
 
     }
