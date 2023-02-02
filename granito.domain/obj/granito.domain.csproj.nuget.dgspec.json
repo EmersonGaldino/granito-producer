@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/granito.domain.csproj": {}
+    "/Users/emersongaldino/Projects/Tests/Granito/granito.domain/granito.domain.csproj": {}
   },
   "projects": {
-    "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/granito.domain.csproj": {
+    "/Users/emersongaldino/Projects/Tests/Granito/granito.domain/granito.domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/granito.domain.csproj",
+        "projectUniqueName": "/Users/emersongaldino/Projects/Tests/Granito/granito.domain/granito.domain.csproj",
         "projectName": "granito.domain",
-        "projectPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/granito.domain.csproj",
+        "projectPath": "/Users/emersongaldino/Projects/Tests/Granito/granito.domain/granito.domain.csproj",
         "packagesPath": "/Users/emersongaldino/.nuget/packages/",
-        "outputPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/obj/",
+        "outputPath": "/Users/emersongaldino/Projects/Tests/Granito/granito.domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/emersongaldino/.nuget/NuGet/NuGet.Config"

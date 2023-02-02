@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B0YeGoNAwLS1f1/Gu7GIFsH8UfRRiCMhRz4DFgoSSoBawSO3ULEtvfMswUtlivAd/+BE1o+uwWmicQTJDfGLSg==",
+  "dgSpecHash": "mWZ0dDZiRADwrvm7fqrWkXGHMB8zrVVUrfUriOqEu6D0J7z8GAN7ITJQ+zJseok6+ztzVm6pkAG7pPkfkQa0EA==",
   "success": true,
-  "projectFilePath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.bootstrapper/granito.bootstrapper.csproj",
+  "projectFilePath": "/Users/emersongaldino/Projects/Tests/Granito/granito.bootstrapper/granito.bootstrapper.csproj",
   "expectedPackageFiles": [
     "/Users/emersongaldino/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/emersongaldino/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

@@ -2,7 +2,7 @@ version: 0.2
 
 env:
     variables:
-        PROJECT: Teste-Galdino
+        PROJECT: granito.api
 
 phases:   
     pre_build:

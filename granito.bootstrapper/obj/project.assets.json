@@ -3500,11 +3500,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.bootstrapper/granito.bootstrapper.csproj",
+      "projectUniqueName": "/Users/emersongaldino/Projects/Tests/Granito/granito.bootstrapper/granito.bootstrapper.csproj",
       "projectName": "granito.bootstrapper",
-      "projectPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.bootstrapper/granito.bootstrapper.csproj",
+      "projectPath": "/Users/emersongaldino/Projects/Tests/Granito/granito.bootstrapper/granito.bootstrapper.csproj",
       "packagesPath": "/Users/emersongaldino/.nuget/packages/",
-      "outputPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.bootstrapper/obj/",
+      "outputPath": "/Users/emersongaldino/Projects/Tests/Granito/granito.bootstrapper/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/emersongaldino/.nuget/NuGet/NuGet.Config"
@@ -3519,14 +3519,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.application/granito.application.csproj": {
-              "projectPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.application/granito.application.csproj"
+            "/Users/emersongaldino/Projects/Tests/Granito/granito.application/granito.application.csproj": {
+              "projectPath": "/Users/emersongaldino/Projects/Tests/Granito/granito.application/granito.application.csproj"
             },
-            "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/granito.domain.csproj": {
-              "projectPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/granito.domain.csproj"
+            "/Users/emersongaldino/Projects/Tests/Granito/granito.domain/granito.domain.csproj": {
+              "projectPath": "/Users/emersongaldino/Projects/Tests/Granito/granito.domain/granito.domain.csproj"
             },
-            "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.repository/granito.repository.csproj": {
-              "projectPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.repository/granito.repository.csproj"
+            "/Users/emersongaldino/Projects/Tests/Granito/granito.repository/granito.repository.csproj": {
+              "projectPath": "/Users/emersongaldino/Projects/Tests/Granito/granito.repository/granito.repository.csproj"
             }
           }
         }

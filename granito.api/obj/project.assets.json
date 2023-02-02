@@ -3625,11 +3625,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.api/granito.api.csproj",
+      "projectUniqueName": "/Users/emersongaldino/Projects/Tests/Granito/granito.api/granito.api.csproj",
       "projectName": "granito.api",
-      "projectPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.api/granito.api.csproj",
+      "projectPath": "/Users/emersongaldino/Projects/Tests/Granito/granito.api/granito.api.csproj",
       "packagesPath": "/Users/emersongaldino/.nuget/packages/",
-      "outputPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.api/obj/",
+      "outputPath": "/Users/emersongaldino/Projects/Tests/Granito/granito.api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/emersongaldino/.nuget/NuGet/NuGet.Config"
@@ -3644,8 +3644,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.bootstrapper/granito.bootstrapper.csproj": {
-              "projectPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.bootstrapper/granito.bootstrapper.csproj"
+            "/Users/emersongaldino/Projects/Tests/Granito/granito.bootstrapper/granito.bootstrapper.csproj": {
+              "projectPath": "/Users/emersongaldino/Projects/Tests/Granito/granito.bootstrapper/granito.bootstrapper.csproj"
             }
           }
         }

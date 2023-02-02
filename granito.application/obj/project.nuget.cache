@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ifOG6k/7Hi3yVQDRt2071hnXA2gTZEtFq4bnlfYBRvHQA3yvW8XunO+aC9V6CvwINRFFaqpCWghQXZlbOEvswA==",
+  "dgSpecHash": "ZQsZ/NuvsCyC0vuYpUJmK2mop0m2NxVojSviJs3maEMAFCkVnCnbXqQazVlSP0eow6pXAY2l+a5JRMpXWDMTbA==",
   "success": true,
-  "projectFilePath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.application/granito.application.csproj",
+  "projectFilePath": "/Users/emersongaldino/Projects/Tests/Granito/granito.application/granito.application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

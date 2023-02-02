@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Fejn30dEQvk+e6+g4iaLxx9SICozxQV8DdD6UV7IOu5s3WDQVU7CgS+ObLbqhYkVA2AS6/CY9gc7+JWoqeNwxg==",
+  "dgSpecHash": "knKgNbChfndwtZpgzvpw7XrJlDW2b/H7r1Gk/dTh0jed1+O76zDEusRhqS++Bql8F7+Uzxd+4D93ERaVshB/Fg==",
   "success": true,
-  "projectFilePath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.repository/granito.repository.csproj",
+  "projectFilePath": "/Users/emersongaldino/Projects/Tests/Granito/granito.repository/granito.repository.csproj",
   "expectedPackageFiles": [
     "/Users/emersongaldino/.nuget/packages/entityframework/6.4.4/entityframework.6.4.4.nupkg.sha512",
     "/Users/emersongaldino/.nuget/packages/entityframework6.npgsql/6.4.3/entityframework6.npgsql.6.4.3.nupkg.sha512",
