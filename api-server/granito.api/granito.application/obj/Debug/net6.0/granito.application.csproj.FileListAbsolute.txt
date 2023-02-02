@@ -1,0 +1,15 @@
+/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.application/bin/Debug/net6.0/granito.application.deps.json
+/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.application/bin/Debug/net6.0/granito.application.dll
+/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.application/bin/Debug/net6.0/granito.application.pdb
+/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.application/bin/Debug/net6.0/granito.domain.dll
+/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.application/bin/Debug/net6.0/granito.domain.pdb
+/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.application/obj/Debug/net6.0/granito.application.csproj.AssemblyReference.cache
+/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.application/obj/Debug/net6.0/granito.application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.application/obj/Debug/net6.0/granito.application.AssemblyInfoInputs.cache
+/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.application/obj/Debug/net6.0/granito.application.AssemblyInfo.cs
+/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.application/obj/Debug/net6.0/granito.application.csproj.CoreCompileInputs.cache
+/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.application/obj/Debug/net6.0/granito.application.csproj.CopyComplete
+/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.application/obj/Debug/net6.0/granito.application.dll
+/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.application/obj/Debug/net6.0/refint/granito.application.dll
+/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.application/obj/Debug/net6.0/granito.application.pdb
+/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.application/obj/Debug/net6.0/ref/granito.application.dll

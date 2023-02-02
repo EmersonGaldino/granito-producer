@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "granito.application/1.0.0": {
+        "dependencies": {
+          "granito.domain": "1.0.0"
+        },
+        "runtime": {
+          "granito.application.dll": {}
+        }
+      },
+      "granito.domain/1.0.0": {
+        "runtime": {
+          "granito.domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "granito.application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "granito.domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

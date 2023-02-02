@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Gg7LUdRRlZqMrveESIfO863JUruxfXLuSITAM2UYUkg=",
+  "Source": "granito.api",
+  "BasePath": "_content/granito.api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

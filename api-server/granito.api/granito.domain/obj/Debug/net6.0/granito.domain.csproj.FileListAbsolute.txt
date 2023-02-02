@@ -1,0 +1,12 @@
+/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/obj/Debug/net6.0/granito.domain.csproj.AssemblyReference.cache
+/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/obj/Debug/net6.0/granito.domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/obj/Debug/net6.0/granito.domain.AssemblyInfoInputs.cache
+/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/obj/Debug/net6.0/granito.domain.AssemblyInfo.cs
+/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/obj/Debug/net6.0/granito.domain.csproj.CoreCompileInputs.cache
+/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/bin/Debug/net6.0/granito.domain.deps.json
+/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/bin/Debug/net6.0/granito.domain.dll
+/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/bin/Debug/net6.0/granito.domain.pdb
+/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/obj/Debug/net6.0/granito.domain.dll
+/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/obj/Debug/net6.0/refint/granito.domain.dll
+/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/obj/Debug/net6.0/granito.domain.pdb
+/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/obj/Debug/net6.0/ref/granito.domain.dll

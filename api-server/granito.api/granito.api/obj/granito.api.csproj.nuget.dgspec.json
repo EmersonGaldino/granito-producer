@@ -25,7 +25,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.bootstrapper/granito.bootstrapper.csproj": {
+                "projectPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.bootstrapper/granito.bootstrapper.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -38,9 +42,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Serilog.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -57,6 +69,372 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.application/granito.application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.application/granito.application.csproj",
+        "projectName": "granito.application",
+        "projectPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.application/granito.application.csproj",
+        "packagesPath": "/Users/emersongaldino/.nuget/packages/",
+        "outputPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/emersongaldino/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/granito.domain.csproj": {
+                "projectPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/granito.domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.bootstrapper/granito.bootstrapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.bootstrapper/granito.bootstrapper.csproj",
+        "projectName": "granito.bootstrapper",
+        "projectPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.bootstrapper/granito.bootstrapper.csproj",
+        "packagesPath": "/Users/emersongaldino/.nuget/packages/",
+        "outputPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.bootstrapper/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/emersongaldino/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.application/granito.application.csproj": {
+                "projectPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.application/granito.application.csproj"
+              },
+              "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/granito.domain.csproj": {
+                "projectPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/granito.domain.csproj"
+              },
+              "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.repository/granito.repository.csproj": {
+                "projectPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.repository/granito.repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "EntityFramework6.Npgsql": {
+              "target": "Package",
+              "version": "[6.4.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.0.0-dev-01842, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.1-dev-00293, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.3.0-dev-00791, )"
+            },
+            "Serilog.Exceptions": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "Serilog.Expressions": {
+              "target": "Package",
+              "version": "[3.4.2-dev-00119, )"
+            },
+            "Serilog.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.1.1-dev-10301, )"
+            },
+            "Serilog.Formatting.Compact": {
+              "target": "Package",
+              "version": "[1.1.1-dev-00944, )"
+            },
+            "Serilog.Formatting.Elasticsearch": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.5.0-dev-00370, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[4.1.1-dev-00901, )"
+            },
+            "Serilog.Sinks.Debug": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Serilog.Sinks.Elasticsearch": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.1-dev-00947, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/granito.domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/granito.domain.csproj",
+        "projectName": "granito.domain",
+        "projectPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/granito.domain.csproj",
+        "packagesPath": "/Users/emersongaldino/.nuget/packages/",
+        "outputPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/emersongaldino/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.repository/granito.repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.repository/granito.repository.csproj",
+        "projectName": "granito.repository",
+        "projectPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.repository/granito.repository.csproj",
+        "packagesPath": "/Users/emersongaldino/.nuget/packages/",
+        "outputPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.repository/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/emersongaldino/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/granito.domain.csproj": {
+                "projectPath": "/Users/emersongaldino/Projects/Tests/Granito/api-server/granito.api/granito.domain/granito.domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "EntityFramework6.Npgsql": {
+              "target": "Package",
+              "version": "[6.4.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Analyzers": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

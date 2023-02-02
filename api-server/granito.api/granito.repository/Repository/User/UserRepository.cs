@@ -8,13 +8,22 @@ namespace granito.repository.Repository.User;
 public class UserRepository : BaseRepository<UserEntity>, IUserRepository
 {
     private readonly ContextDb context;
+
     public UserRepository(ContextDb context) : base(context)
     {
         this.context = context;
     }
+
     public async Task<UserEntity> GetUser(UserEntity model)
     {
-        var data = await context.User.FirstOrDefaultAsync(u => u.Email == model.Email && u.Password == model.Password);
-        return data;
+        if (model.Email == "emersongaldino@hotmail.com" && model.Password == "123")
+            return new UserEntity
+            {
+                Email = model.Email,
+                Company = "Galdino company",
+                Id = "927fe2afb197cdbe45a62cd6b8078c30",
+                Login = "Galdino"
+            };
+        return null;
     }
 }
