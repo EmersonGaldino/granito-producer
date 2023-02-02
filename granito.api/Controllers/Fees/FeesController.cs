@@ -15,8 +15,8 @@ public class FeesController : ApiBaseController
     [HttpGet]
     [SwaggerOperation(Summary = "Get Fees",
         Description = "Buscar taxa de juros.")]
-    [SwaggerResponse(200, "Lista.", typeof(SuccessResponse<BaseModelView<FeesModelView>>))]
-    [SwaggerResponse(400, "Não foi possível bsucar as contas do sistema.", typeof(BadResponse))]
+    [SwaggerResponse(200, "Juros.", typeof(SuccessResponse<BaseModelView<FeesModelView>>))]
+    [SwaggerResponse(400, "Não foi possível buscar o juros do sistema.", typeof(BadResponse))]
     [SwaggerResponse(500, "Erro no rastreamento da pilha.", typeof(BadResponse))]
     public async Task<IActionResult> Get() => await AutoResult(async () => new BaseModelView<FeesModelView>
     {
