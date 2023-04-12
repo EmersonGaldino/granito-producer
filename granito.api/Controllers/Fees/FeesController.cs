@@ -13,7 +13,7 @@ public class FeesController : ApiBaseController
     private IFeesAppService AppService => GetService<IFeesAppService>();
     
     [HttpGet]
-    [SwaggerOperation(Summary = "Get Fees",
+    [SwaggerOperation(Summary = "Get Fees  s",
         Description = "Buscar taxa de juros.")]
     [SwaggerResponse(200, "Juros.", typeof(SuccessResponse<BaseModelView<FeesModelView>>))]
     [SwaggerResponse(400, "Não foi possível buscar o juros do sistema.", typeof(BadResponse))]
